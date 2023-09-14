@@ -516,6 +516,7 @@ class SIP:
             'last_request': time.time(),
             'delay_start': 0,
             'remote_tag': None,
+            'timeout_retries': 0,
         }
 
         def error(msg):
@@ -572,6 +573,8 @@ class SIP:
                     state['done'] = True
             elif res.code == 487 and state['status'] == 'done_send_cancel':
                 state['done'] = True
+            elif res.code == 486: # Busy => try to cancel call before aborting
+                state['status'] = 'send_cancel'
             elif res.code >= 400:
                 error('Unhandled error.')
                 state['done'] = True
@@ -615,7 +618,14 @@ class SIP:
                         if now - state['delay_start'] > delay:
                             state['status'] = 'send_cancel'
                     elif now - state['last_request'] > timeout:
-                        error('Timeout while waiting for server response')
+                        # In case of a first timeout, try to cancel the call before aborting
+                        if state['timeout_retries'] == 0:
+                            state['timeout_retries'] = 1
+                            state['last_request'] = time.time()
+                            state['status'] = 'send_cancel'
+                            logger.info("Timeout waiting for server response, trying to cancel call")
+                        else:
+                            error('Timeout while waiting for server response')
 
                     # Check whether we can read or write from the socket
                     can_read, can_write, in_error = \
