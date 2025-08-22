@@ -1,0 +1,141 @@
+Working:
+
+INFO:rpi_sip_doorbell:Detected door ring event, initiating SIP call at 1694724830.6890068.
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:rpi_sip_doorbell:SIP call ended at 1694724837.1047368.
+
+1694724830.6890068
+1694724837.1047368
+7 secs
+
+-----
+Error 490:
+INFO:rpi_sip_doorbell:Detected door ring event, initiating SIP call at 1694724890.4557147.
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+ERROR:femtosip:Received invalid response code
+INFO:femtosip:response: 490 -1 (Sep  1 2023)
+ERROR:femtosip:Timeout while waiting for server response
+INFO:rpi_sip_doorbell:SIP call ended at 1694724891.6403384.
+1694724890.4557147
+1694724891.6403384
+1 sec
+
+-----
+Error 486:
+INFO:rpi_sip_doorbell:Detected door ring event, initiating SIP call at 1694724894.056445.
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:response: SIP/2.0 486 Busy Here
+ERROR:femtosip:Unhandled error.
+INFO:rpi_sip_doorbell:SIP call ended at 1694724898.2913144.
+1694724894.056445
+1694724898.2913144
+4 secs
+
+-----
+Error 481:
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: IP/2.0 200 OK
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 481 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Unhandled error.
+
+
+
+
+
+
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+ERROR:femtosip:Received invalid response code
+INFO:femtosip:response: 113.07.57 -1 1 2023)
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+
+
+
+
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+ERROR:femtosip:Received invalid response code
+INFO:femtosip:response: 90 -1 (Sep  1 2023)
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+
+
+
+
+
+
+ERROR:femtosip:Received invalid response code.
+
+Code:(Sep
+
+Protocol: 113.07.57
+
+Message: 1 2023)
+
+Body: v=0
+o=user <value> <value> IN IP4 192.168.178.1
+s=call
+c=IN IP4 192.168.178.1
+t=0 0
+m=audio 7078 RTP/AVP 8 0 2 102 100 99 97 101
+a=sendrecv
+a=rtpmap:2 G726-32/8000
+a=rtpmap:102 G726-32/8000
+a=rtpmap:100 G726-40/8000
+a=rtpmap:99 G726-24/8000
+a=rtpmap:97 iLBC/8000
+a=fmtp:97 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtcp:7079
+
+
+=============================
+
+
+Received VALID response code:
+
+Code: 183
+
+Protocol: SIP/2.0
+
+Message: Session Progress
+
+Body: v=0
+o=user <value> <value> IN IP4 192.168.178.1
+s=call
+c=IN IP4 192.168.178.1
+t=0 0
+m=audio 7078 RTP/AVP 8 0 2 102 100 99 97 101
+a=sendrecv
+a=rtpmap:2 G726-32/8000
+a=rtpmap:102 G726-32/8000
+a=rtpmap:100 G726-40/8000
+a=rtpmap:99 G726-24/8000
+a=rtpmap:97 iLBC/8000
+a=fmtp:97 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtcp:7079

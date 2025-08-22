@@ -202,10 +202,46 @@ class ResponseParser:
 
         def call_callback():
             # Convert the message code to an integer
+            dummy = ''
             try:
                 self.code = int(str(self.code, 'ascii'))
+                # try:
+                #     dummy = str(self.code)
+                # except:
+                #     dummy = 'Code not convertible'
+                # print(dummy)
+                # try:
+                #     dummy = dummy + '== Protocol: ' + str(self.protocol, 'ascii')
+                # except:
+                #     print("PROT ERROR")
+                # try:
+                #     dummy = dummy + '== Message: ' + str(self.message, 'ascii')
+                # except:
+                #     print("MSG ERROR")
+                # try:
+                #     dummy = dummy + '== Body: ' + str(self.body, 'ascii')
+                # except:
+                #     print("Body ERROR")
+                # try:
+                #     dummy = dummy + '== Key: ' + str(self._key, 'ascii')
+                # except:
+                #     print("Key ERROR")
+                # try:
+                #     dummy = dummy + '== Value: ' + str(self._value, 'ascii')
+                # except:
+                #     print("Value ERROR")
+                # logger.error('Received VALID response code:' + dummy)
+
             except:
-                logger.error('Received invalid response code')
+                try:
+                    logger.error('Received invalid response code. Code:' + str(self.code, 'ascii') + 
+                                 ' == Protocol: ' + str(self.protocol, 'ascii') + 
+                                 ' == Message: ' + str(self.message, 'ascii') + 
+                                 ' == Body: ' + str(self.body, 'ascii') +
+                                 ' == Key: ' + str(self._key, 'ascii') +
+                                 ' == Value: ' + str(self._value, 'ascii'))
+                except:
+                    logger.error('Received invalid response code, not convertible to str.')
                 self.code = -1
 
             # Convert the protocol and the message to a string
@@ -356,9 +392,6 @@ class SIP:
         self.port = port
         self.display_name = display_name
         self.protocol = protocol
-
-        # Create the response parser instance
-        self.response_parser = ResponseParser()
 
         # Initilise the session parameters
         self.seq = 0
@@ -571,10 +604,10 @@ class SIP:
                     state['status'] = 'send_bye'
                 if state['status'] == 'done_send_bye':
                     state['done'] = True
-            elif res.code == 487 and state['status'] == 'done_send_cancel':
-                state['done'] = True
             elif res.code == 486: # Busy => try to cancel call before aborting
                 state['status'] = 'send_cancel'
+            elif res.code == 487 and state['status'] == 'done_send_cancel':
+                state['done'] = True
             elif res.code >= 400:
                 error('Unhandled error.')
                 state['done'] = True
@@ -585,6 +618,8 @@ class SIP:
             self.protocol = self.protocol[:3]
             self.local_ip_header = '[' + self.local_ip + ']' if ':' in self.local_ip else self.local_ip
             self.gateway_header = '[' + self.gateway + ']' if ':' in self.gateway else self.gateway
+
+            call_start=time.time()
 
             while not state['done']:
                 now = time.time()
@@ -635,7 +670,7 @@ class SIP:
                     else:
                         if len(can_read) > 0:
                             readbuf = sock.recv(4096)
-                            self.response_parser.feed(readbuf, handle_response)
+                            ResponseParser().feed(readbuf, handle_response)
                         if len(can_write) > 0 and len(writebuf) > 0:
                             state['last_request'] = time.time()
                             sent = sock.send(writebuf)
@@ -647,7 +682,7 @@ class SIP:
                         state['status'] = 'send_cancel'
                     else:
                         state['done'] = True
-
+            logger.info("Call duration: " + str(call_start-now))
 
 #
 # Main program

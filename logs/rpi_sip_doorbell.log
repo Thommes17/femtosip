@@ -1,0 +1,430 @@
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0009653568267822
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.001298427581787
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.001269817352295
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007710456848145
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -3.166215419769287
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -3.209798812866211
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007872581481934
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.001399517059326
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0012545585632324
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007917881011963
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0008599758148193
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0013389587402344
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0013060569763184
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.000789165496826
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.000781774520874
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.00091814994812
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007972717285156
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0013558864593506
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.000887155532837
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0013346672058105
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.015108585357666
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.081417083740234
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.087953805923462
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.086115837097168
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.078539609909058
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.0836474895477295
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.000842571258545
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007870197296143
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0009872913360596
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.001260280609131
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0012764930725098
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.0782294273376465
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.094630718231201
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.074995994567871
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+ERROR:femtosip:Received invalid response code. Code:(Sep == Protocol: 113.07.57 == Message: 1 2023) == Body: v=0
+o=user 15298858 15298858 IN IP4 192.168.178.1
+s=call
+c=IN IP4 192.168.178.1
+t=0 0
+m=audio 7078 RTP/AVP 8 0 2 102 100 99 97 101
+a=sendrecv
+a=rtpmap:2 G726-32/8000
+a=rtpmap:102 G726-32/8000
+a=rtpmap:100 G726-40/8000
+a=rtpmap:99 G726-24/8000
+a=rtpmap:97 iLBC/8000
+a=fmtp:97 mode=30
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 0-15
+a=rtcp:7079
+ == Key:  == Value: 
+INFO:femtosip:response: 113.07.57 -1 1 2023)
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -1.023740291595459
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 401 Unauthorized
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 100 Trying
+INFO:femtosip:response: SIP/2.0 183 Session Progress
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+INFO:femtosip:response: SIP/2.0 487 Request Cancelled
+INFO:femtosip:Call duration: -6.079285144805908
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.023469924926758
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0014286041259766
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007998943328857
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0007996559143066
+INFO:rpi_sip_doorbell:==============
+INFO:femtosip:request: INVITE sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Unauthorized
+INFO:femtosip:Timeout waiting for server response, trying to cancel call
+INFO:femtosip:request: CANCEL sip:11@192.168.178.1
+ERROR:femtosip:Received invalid response code, not convertible to str.
+INFO:femtosip:response: SIP/2.0 -1 Call Leg/Transaction Does Not Exist
+ERROR:femtosip:Timeout while waiting for server response
+INFO:femtosip:Call duration: -2.0014233589172363
